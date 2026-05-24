@@ -1,0 +1,51 @@
+window {
+    background-color: #1f1e1e;
+}
+/*
+scrolledwindow {
+    background-color: #2d2c2c;
+}
+
+scrolledwindow > child {
+    background-color: #2d2c2c;
+}
+
+textview {
+    background-color: #2d2c2c;
+    color: white;
+}
+
+textview text {
+    background-color: #2d2c2c;
+    color: white;
+}
+
+sourceview {
+    background-color: #2d2c2c;
+}
+
+sourceview text {
+    background-color: #2d2c2c;
+}
+*/
+headerbar {
+    background-color: #ecebeb;
+    min-height: 10px;
+    padding: 0px;
+    border-color: #d6d6d6;
+    font-size: 2px;
+    color: black;
+}
+
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    margin-right: 3px;
+    min-width: 0px;
+    min-height: 0px;
+    filter: invert(1);
+}
