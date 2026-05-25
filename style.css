@@ -10,11 +10,6 @@ scrolledwindow > child {
     background-color: #2d2c2c;
 }
 
-textview {
-    background-color: #2d2c2c;
-    color: white;
-}
-
 textview text {
     background-color: #2d2c2c;
     color: white;
@@ -28,15 +23,48 @@ sourceview text {
     background-color: #2d2c2c;
 }
 */
+
+textview {
+    font-size: 15px;
+}
+
 headerbar {
     background-color: #ecebeb;
     min-height: 10px;
     padding: 0px;
-    border-color: #d6d6d6;
-    font-size: 2px;
+    border-color: #ecebeb;
     color: black;
 }
 
+header {
+    padding-left: 20px;
+}
+
+.title-label {
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+menubar {
+    background-color: #ecebeb;
+    color: black;
+}
+
+popover contents {
+    background-color: #ecebeb;
+}
+
+/* Individual menu items */
+popover modelbutton {
+    color: black;
+}
+
+/* Hovered menu item */
+popover modelbutton:hover {
+    background-color: #d0cfcf;
+    color: black;
+}
 headerbar entry,
 headerbar spinbutton,
 headerbar button,
