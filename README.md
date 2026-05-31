@@ -1,4 +1,4 @@
-# This is just a paractical project to improve myself.
+# This is just a paractical project to improve myself. NOT FINISHED YET!
 
 # Requirements
 GTK-4
